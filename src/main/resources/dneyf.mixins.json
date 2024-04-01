@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "fr.firstmegagame4.dneyf.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "class_9538Mixin",
+    "ItemAccessor",
+    "ItemAccessor$SettingsAccessor",
+    "ItemMixin",
+    "ItemsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

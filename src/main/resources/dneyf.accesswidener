@@ -1,0 +1,5 @@
+accessWidener v1 named
+
+mutable field net/minecraft/item/Item components Lnet/minecraft/component/ComponentMap;
+mutable field net/minecraft/item/Item recipeRemainder Lnet/minecraft/item/Item;
+mutable field net/minecraft/item/Item requiredFeatures Lnet/minecraft/resource/featuretoggle/FeatureSet;

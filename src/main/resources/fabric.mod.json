@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "dneyf",
+	"version": "${version}",
+	"name": "Do Not Eat Your Friends",
+	"description": "You can't eat potatoes since you are also a potato.",
+	"authors": [
+		"FirstMegaGame4"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/dneyf",
+		"sources": "https://github.com/FirstMegaGame4/dneyf",
+		"issues": "https://github.com/FirstMegaGame4/dneyf/issues"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/dneyf/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.firstmegagame4.dneyf.DoNotEatYourFriends"
+		]
+	},
+	"mixins": [
+		"dneyf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.8",
+		"minecraft": "1.20.5-alpha.24.12.potato",
+		"java": ">=17"
+	},
+	"accessWidener": "dneyf.accesswidener"
+}
